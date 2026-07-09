@@ -105,5 +105,5 @@ HTML / Bootstrap for UI
 
 
 👤 Author
-TOPALLE NIKHILA
+Topalle Nikhila
 Data Scientist
