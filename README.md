@@ -1,9 +1,14 @@
 💳 Credit Card Customer Behaviour Prediction
+
 End‑to‑end machine learning project to predict whether a credit card customer is Good or Bad, with a full MLOps‑style pipeline and Flask deployment.
 
-📌 Project Overview This project builds a production‑ready ML pipeline that classifies credit card customers into Good and Bad risk categories based on their demographic and financial attributes. It covers everything from raw CSV data to a deployed web app with real‑time predictions.
+📌 Project Overview 
 
-🎯 Business Objective Identify risky credit card customers before default. Reduce financial losses due to bad debt and fraud. Improve credit approval and limit decisions using data‑driven insights.
+This project builds a production‑ready ML pipeline that classifies credit card customers into Good and Bad risk categories based on their demographic and financial attributes. It covers everything from raw CSV data to a deployed web app with real‑time predictions.
+
+🎯 Business Objective 
+
+Identify risky credit card customers before default. Reduce financial losses due to bad debt and fraud. Improve credit approval and limit decisions using data‑driven insights.
 
 🗂 Project Structure
 
@@ -23,7 +28,10 @@ creditcard.csv # Raw dataset main.py # End-to-end ML pipeline entry script rando
 
 7️⃣ Model Training Trained and evaluated multiple classifiers: K‑Nearest Neighbors (KNN) Logistic Regression Naive Bayes Decision Tree Random Forest AdaBoost Gradient Boosting – selected as final model XGBoost The best‑performing model (based on ROC‑AUC and classification metrics) is saved as: credit_card.pkl
 
-🚀 Deployment Backend: Flask application (app.py) exposing prediction endpoint. Frontend: index.html with Bootstrap form for user inputs and result display. The app loads credit_card.pkl and scalar.pkl at startup and returns real‑time predictions (Good / Bad) for new customers.
+🚀 Deployment Backend: 
+Flask application (app.py) exposing prediction endpoint. 
+Frontend: index.html with Bootstrap form for user inputs and result display. 
+The app loads credit_card.pkl and scalar.pkl at startup and returns real‑time predictions (Good / Bad) for new customers.
 
 ⚙️ How to Run Locally
 
@@ -33,6 +41,8 @@ Run the ML pipeline (optional if model already trained) python main.py
 
 Start the Flask app python app.py Open your browser at: http://127.0.0.1:5000 Enter customer details in the form and submit to see the Good/Bad prediction.
 
-🧠 Technologies Used Python, NumPy, Pandas Scikit‑learn (preprocessing, models, evaluation) SMOTE from imbalanced-learn for class imbalance XGBoost, GradientBoostingClassifier Flask for deployment HTML / Bootstrap for UI
+🧠 Technologies Used Python, NumPy, Pandas Scikit‑learn (preprocessing, models, evaluation) 
+SMOTE from imbalanced-learn for class imbalance XGBoost, 
+GradientBoostingClassifier Flask for deployment HTML / Bootstrap for UI
 
 👤 Author Topalle Nikhila Data Scientist
